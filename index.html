@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <title>YC Adam Work Log</title>
+        
+        <!-- normalize.css fixed stupid IE image border quirk, and makes things look more correctly consistent -->
+        <link rel="stylesheet" href="normalize.css" type="text/css" />
+        
+        <!-- should be showing a counter progress loader in top right -->
+        <script type="text/javascript" src="pace.js"></script>
+        <link rel="stylesheet" href="pace.css" type="text/css" />
+        
+        <script type="text/javascript" src="jquery-2.0.3.js"></script>        
+        <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+        
+        <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="style.css" type="text/css" />
+
+    </head>
+    
+    <body>
+        <div>
+            <div id="projects">
+                <input class="search" placeholder="Search Projects" />
+                
+                <a href="#"><span class="sort" id="sort" data-sort="project">Sort A-Z</span></a>
+                
+                <ul class="list">
+                    <li>
+                        <a class="fancybox" rel="gallery1" title="Airport to Port and Back" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/Airport2Port.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/Airport2PortThumb.PNG" />
+                        </a>
+                        <h3 class="project">Airport to Port and Back</h3>
+                        <p class="description">Analysis of trips from Airport to Port (and vica versa) includes trips, fares and travel time.</p>
+                        <span>Created: 9/25/2013</span>
+                        <span>Updated:</span>
+                        <br />
+                        <a href="http://sdrv.ms/1h1rWt8">Airport Port on SkyDrive</a>
+                    </li>
+                    <li>
+                        <a class="fancybox" rel="gallery1" title="Destinations from Airport" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/DestinationsFromAirport.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/DestinationsFromAirportThumb.PNG" />
+                        </a>
+                        <a class="fancybox" rel="gallery1" title="Destinations from Airport with map on Tableau" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/DestinationsFromAirportTableau.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/DestinationsFromAirportTableauThumb.PNG" />
+                        </a>
+                        <h3 class="project">Destinations from Airport</h3>
+                        <p class="description">Cab fare and time from Airport to popular destinations.</p>
+                        <span>Created: 8/20/2013</span>
+                        <span>Updated: 8/23/2013</span>
+                        <br />
+                        <a href="http://sdrv.ms/16EjBZw">Aiport Destinations on SkyDrive</a><br />
+                        <a href="http://public.tableausoftware.com/views/Locations2/Dashboard1?:embed=y&:display_count=no">Airport Destinations with map on Tableau</a>
+                    </li>
+                    <li>
+                        <a class="fancybox" rel="gallery1" title="Himmarshee on SkyDrive" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/Himmarshee.png">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/HimmarsheeThumb.png" />
+                        </a>
+                        <a class="fancybox" rel="gallery1" title="Himmarshee with map on Tableau" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/HimmarsheeTableau.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/HimmarsheeTableauThumb.PNG" />
+                        </a>
+                        <h3 class="project">Himmarshee</h3>
+                        <p class="description">Thursday-Sunday (night till morning) Trips, Response Times and Dollars in Himmarshee.  Data updated through September 2013.</p>
+                        <span>Created: 7/24/2013</span>
+                        <span>Updated: 10/8/2013</span>
+                        <br />
+                        <a href="http://sdrv.ms/17ezXpW">Himmarshee on SkyDrive</a><br />
+                        <a href="http://public.tableausoftware.com/views/Himmarshee2/Dashboard1?:embed=y&:display_count=no">Himmarshee on Tableau</a>
+                    </li>
+                    <li>
+                        <a class="fancybox" rel="gallery1" title="Galt Ocean Mile" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/GaltOceanMile.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/GaltOceanMileThumb.PNG" />
+                        </a>
+                        <a class="fancybox" rel="gallery1" title="Galt Ocean Mile" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/GaltTableau.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/GaltTableauThumb.PNG" />
+                        </a>
+                        <h3 class="project">Galt Ocean Mile</h3>
+                        <p class="description">Thursday to Sunday (all hours) Trips, Response Times and Dollars in Galt Ocean Mile.  Data updated through September 2013.</p>
+                        <span>Created: 8/1/2013</span>
+                        <span>Updated: 10/8/2013</span>
+                        <br />
+                        <a href="http://sdrv.ms/17ezVyf">Galt Ocean Mile on SkyDrive</a><br />
+                        <a href="http://public.tableausoftware.com/views/GaltOceanMile/Dashboard1?:embed=y&:display_count=no">Galt Ocean Mile on Tableau</a>
+                    </li>
+                    <li>
+                        <a class="fancybox" rel="gallery1" title="Cab Measures" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/CabMeasuresDashboard.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/CabMeasuresDashboardThumb.PNG" />
+                        </a>
+                        <h3 class="project">Cab Measures</h3>
+                        <p class="description">Cab scorecard summary dashboard includes trips, fares collected and hours worked.  Source data for this dashboard is Fares collected, Hours Worked and Pickups</p>
+                        <span>Created: 6/21/2013</span>
+                        <span>Updated:</span>
+                        <br />
+                        <a href="http://sdrv.ms/1dMruiz">Cab Scorecard on SkyDrive</a>
+                    </li>
+                    <li>
+                        <a class="fancybox" rel="gallery1" title="Fares collected" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/Fares.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/FaresThumb.png" />
+                        </a>
+                        <h3 class="project">Fares collected</h3>
+                        <p class="description">Fares collected by day, hour and day of week for each cab.</p>
+                        <span>Created: 6/21/2013</span>
+                        <span>Updated:</span>
+                        <br />
+                        <a href="http://sdrv.ms/1c0ERxB">Fares collected on SkyDrive</a>
+                    </li>
+                    <li>
+                        <a class="fancybox" rel="gallery1" title="Hours Worked" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/Hours.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/HoursThumb.png" />
+                        </a>
+                        <h3 class="project">Hours Worked</h3>
+                        <p class="description">Hours worked by day, hour and day of week for each cab.</p>
+                        <span>Created: 6/21/2013</span>
+                        <span>Updated:</span>
+                        <br />
+                        <a href="http://sdrv.ms/15GNpYm">Hours Worked on SkyDrive</a>
+                    </li>
+                    <li>
+                        <a class="fancybox" rel="gallery1" title="Pickups" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/Pickups.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/PickupsThumb.png" />
+                        </a>
+                        <h3 class="project">Pickups</h3>
+                        <p class="description">Number of pickups by day, hour and day of week for each cab.</p>
+                        <span>Created: 6/21/2013</span>
+                        <span>Updated:</span>
+                        <br />
+                        <a href="http://sdrv.ms/15GNr2C">Pickups on SkyDrive</a>
+                    </li>
+                    <li>
+                        <a class="fancybox" rel="gallery1" title="Heat Map" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/GeoHeatmap.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/GeoHeatmapThumb.PNG" />
+                        </a>
+                        <h3 class="project">Heat Map</h3>
+                        <p class="description">Number of trips plotted by gps coordinates with a heat map visualization.</p>
+                        <span>Created: 6/21/2013</span>
+                        <span>Updated: 6/22/2013</span>
+                        <br />
+                        <a href="http://sdrv.ms/19529uY">Heat Map on SkyDrive</a>
+                    </li>
+                    <li>
+                        <a class="fancybox" rel="gallery1" title="Zone Dashboard" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/ZoneDashboard.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/ZoneDashboardThumb.PNG" />
+                        </a>
+                        <h3 class="project">Zone Dashboard</h3>
+                        <p class="description">Interactive dashboard summarizes Zone and Driver activity by day of week
+                            and hour of day as well as plotting locations on a map. Also pivot tables
+                            for each measure by day of week and hour of day.</p>
+                        <span>Created: 6/12/2013</span>
+                        <span>Updated: 6/21/2013</span>
+                        <br />
+                        <a href="http://sdrv.ms/194ZZeT">Zone & Driver Folder on SkyDrive</a>
+                    </li>
+                    <li>
+                        <a class="fancybox" rel="gallery1" title="Excel Macro Measure Grid" href="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/PercentChange.PNG">
+                            <img src="https://dl.dropboxusercontent.com/u/19733504/Yellow%20Cab/images/PercentChangeThumb.png" />
+                        </a>
+                        <h3 class="project">Zone Percent Change</h3>
+                        <p class="description">Percent change compared to previous day of number of trips by zone.  Automated with Excel macro. </p>
+                        <span>Created: 6/19/2013</span>
+                        <span>Updated:</span>
+                        <br />
+                        <a href="http://sdrv.ms/1g0jwo6">Percent Change on SkyDrive</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="list.js"></script>
+        <!--<script type="text/javascript" src="fuzzySearch.js"></script>-->
+        
+        <script type="text/javascript">
+            // listjs
+            var options = {
+                valueNames: ['project', 'description']
+            };
+            var featureList = new List('projects', options);
+
+            // fancybox            
+        	$(document).ready(function() {
+        	    $(".fancybox").fancybox({
+        	        openEffect  : 'elastic',
+        	        closeEffect : 'elastic',
+        	        helper : {
+        	            title : {
+        	                type : 'float'
+        	            }
+        	        }
+        	    });
+        	});
+ 
+        </script>
+    </body>
+
+</html>
